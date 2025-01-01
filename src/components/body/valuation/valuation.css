@@ -1,0 +1,19 @@
+.valuation-box {
+  margin-top: 15px;
+  margin-bottom: 60px; /* Reduced for a cleaner layout */
+}
+
+.valuation-desc-box {
+  background-color: #f7f9fc; /* Softer, professional background */
+  padding: 15px; /* Increased padding for better spacing */
+  border-radius: 8px; /* Slightly reduced border-radius for a more modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 1px solid #e0e4e7; /* Added border for definition */
+}
+
+.intro {
+  margin-bottom: 10px; /* Consistent spacing between paragraphs */
+  font-size: 16px; /* Standard font size for readability */
+  color: #333; /* Darker text color for better contrast */
+  line-height: 1.5; /* Improved line height for readability */
+}
