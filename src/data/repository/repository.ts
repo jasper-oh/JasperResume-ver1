@@ -9,7 +9,7 @@ export class Repository<T> {
   }
 
   async getAll(): Promise<T[]> {
-    const { data, error } = await supabase.from(this.table).select('*');
+    const { data, error } = await supabase.from(this.table).select('*').order('id', { ascending: false });
     if (error) throw new Error(`Error fetching data from ${this.table}: ${error.message}`);
     return data || [];
   }
