@@ -9,10 +9,8 @@ function ProjectCard({ project }: ProjectCardProps ) {
   return (
     <div className="project-card" data-type={project.type}>
       <div className="project-info">
-        <label className="project-title">{project.title}</label>
-        <p>{project.title}</p>
-        <p>{project.briefDescription}</p>
-        <p>{project.detailDescription}</p>
+        <label className="project-title">{project.title}</label>      
+        <p>{project.briefDescription}</p>        
         <div className="project-links">
           {project.demo && (
             <a className="project-link" href={project.demo}>
