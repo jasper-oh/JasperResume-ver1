@@ -10,7 +10,7 @@ function ProjectCard({ project }: ProjectCardProps ) {
     <div className="project-card" data-type={project.type}>
       <div className="project-info">
         <label className="project-title">{project.title}</label>      
-        <p>{project.briefDescription}</p>        
+        <p>{project.brief_description}</p>        
         <div className="project-links">
           {project.demo && (
             <a className="project-link" href={project.demo}>

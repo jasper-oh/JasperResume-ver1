@@ -5,7 +5,7 @@ export interface Project {
   type: string;
   tech_stack: string[];
   title: string;
-  briefDescription: string;
+  brief_description: string;
   description: string;
   detailDescription: string;
   demo: string;
